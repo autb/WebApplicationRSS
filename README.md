@@ -5,7 +5,7 @@ and where the code was saw in the [article](https://referbruv.com/blog/posts/cre
 # Using NGrok to expose local webapp to public space
 
 ## Ngrok & TPLINK & livebox
-Interesting way aslo was to see how use ngrok to expose the local web app.
+Interesting way also was to see how use ngrok to expose the local web app.
 
 In my case to test i just do : `ngrok http https://192.168.0.140:5001` where the IP (192.168.0.140) was my local laptop, behing a TPlink wiht IP (192.168.1.43)
 which was also itself behind a web box (livebox).
