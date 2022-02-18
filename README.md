@@ -3,7 +3,7 @@ It's a simple RSS Feed with ASP.NET Core Web API implemented wit VS2019 with a b
 and where the code was saw in the [article](https://referbruv.com/blog/posts/creating-a-simple-rss-feed-with-aspnet-core-web-api).
 
 ## Note 1: Ngrok & TPLINK & livebox
-interesting way aslo was to see how use ngrok to expose the local web app.
+Interesting way aslo was to see how use ngrok to expose the local web app.
 
 In my case to test i just do : `ngrok http https://192.168.0.140:5001` where the IP (192.168.0.140) was my local laptop, behing a TPlink wiht IP (192.168.1.43)
 which was also itself behind a web box (livebox).
