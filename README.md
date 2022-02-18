@@ -21,7 +21,7 @@ By the way ngrok url was running well from public side to go to my running local
 
 ## Ngrok & CliWrap to Start ngrok automatically during ASP.NET Core startup
 One good tool [CliWrap](https://github.com/Tyrrrz/CliWrap) well described in this [article](https://www.twilio.com/blog/integrate-ngrok-into-aspdotnet-core-startup-and-automatically-update-your-webhook-urls) could be use to automatically startup ngrok.
-A good video to discover the nice feature of this tool can be watch [here](https://www.youtube.com/watch?v=3_Ucw3Fflmo).
+A good video to discover the nice features of this tool can be watched [here](https://www.youtube.com/watch?v=3_Ucw3Fflmo).
 
 # Coding points:
 Once the first step, when I launched the webapp, in fact the feed endpoint /api/feed/rss was not running. The issue was in the Statup.cs in the function Configure where the app.useEndpoints has no declaration of the MapControllers.
